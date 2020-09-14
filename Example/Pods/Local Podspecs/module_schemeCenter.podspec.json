@@ -1,0 +1,33 @@
+{
+  "name": "module_schemeCenter",
+  "version": "0.0.1",
+  "summary": "route jump",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/xiaoshu_ios@163.com/module_schemeCenter",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "xiaoshu_ios@163.com": "xiaoshu@xiaoyezi.com"
+  },
+  "source": {
+    "git": "https://github.com/xiaoshu_ios@163.com/module_schemeCenter.git",
+    "tag": "0.0.1"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "subspecs": [
+    {
+      "name": "ModuleServiceCenter",
+      "source_files": "module_schemeCenter/ModuleServiceCenter/**/*.{h,m}",
+      "public_header_files": "module_schemeCenter/ModuleServiceCenter/**/*.{h}"
+    },
+    {
+      "name": "URLSchemeCenter",
+      "source_files": "module_schemeCenter/URLSchemeCenter/**/*.{h,m}",
+      "public_header_files": "module_schemeCenter/URLSchemeCenter/**/*.{h}"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'module_schemeCenter_Example' do
+  pod 'module_schemeCenter', :path => '../'
+
+  target 'module_schemeCenter_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

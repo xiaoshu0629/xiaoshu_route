@@ -1,0 +1,20 @@
+PODS:
+  - module_schemeCenter (0.0.1):
+    - module_schemeCenter/ModuleServiceCenter (= 0.0.1)
+    - module_schemeCenter/URLSchemeCenter (= 0.0.1)
+  - module_schemeCenter/ModuleServiceCenter (0.0.1)
+  - module_schemeCenter/URLSchemeCenter (0.0.1)
+
+DEPENDENCIES:
+  - module_schemeCenter (from `../`)
+
+EXTERNAL SOURCES:
+  module_schemeCenter:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  module_schemeCenter: f49f16f0e9b18c9619845bc4abd066e5a8dd06d5
+
+PODFILE CHECKSUM: 26973dd9ebcd1d84fe88d256048aeb3a8d75893b
+
+COCOAPODS: 1.9.3
